@@ -1,0 +1,27 @@
+{
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+  "dependencies": {},
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.0.0-rc3-004363"
+        }
+      }
+    }
+  },
+  "runtimeOptions": {
+    "somethingString": "anything",
+    "somethingBoolean": true,
+    "someArray": [
+      "one",
+      "two"
+    ],
+    "someObject": {
+      "someProperty": "someValue"
+    }
+  }
+}
